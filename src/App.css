@@ -6,7 +6,7 @@
 }
 
 .home,
-.events,
+/*.events,*/
 .merch,
 .sign-up {
     display: flex;
