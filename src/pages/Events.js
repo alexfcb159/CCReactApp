@@ -1,6 +1,6 @@
 import React from 'react';
-import '../../App.css';
-import MyCalendar from "../MyCalendar";
+import '../App.css';
+import MyCalendar from "../components/MyCalendar/MyCalendar";
 
 function Events () {
     return (

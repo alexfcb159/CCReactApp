@@ -1,5 +1,5 @@
 import React from 'react';
-import CardItem from "./CardItem";
+import CardItem from "../CardItem/CardItem";
 import './Cards.css';
 
 function Cards() {
@@ -10,7 +10,7 @@ function Cards() {
                 <div className='cards__wrapper'>
                     <ul className='cards__items'>
                         <CardItem
-                            src='images/meetup1.jpg'
+                            src='images/meetup.jpg'
                             text='Join the ultimate car meet-up. Rev up the excitement!'
                             label='Meet-Up'
                             path='/events'
@@ -24,19 +24,19 @@ function Cards() {
                     </ul>
                     <ul className='cards__items'>
                         <CardItem
-                            src='images/stance.jpg'
+                            src='images/exhibition.jpg'
                             text='Experience the art of automotive stance.'
                             label='Exhibition'
                             path='/events'
                         />
                         <CardItem
-                            src='images/nightride.png'
+                            src='images/nightride.jpg'
                             text='Embrace the thrill of the night, let the city guide you.'
                             label='Night Ride'
                             path='/events'
                         />
                         <CardItem
-                            src='images/coffee1.jpeg'
+                            src='images/coffee.jpeg'
                             text='Sip coffee, talk cars, and fuel your passion.'
                             label='Cars&Coffee'
                             path='/events'
