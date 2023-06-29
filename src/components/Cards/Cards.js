@@ -16,7 +16,7 @@ function Cards() {
                             path='/events'
                         />
                         <CardItem
-                            src='images/race.jpg'
+                            src='images/race1.jpg'
                             text='Feel the adrenaline rush. Race with the pros!'
                             label='Race'
                             path='/events'
