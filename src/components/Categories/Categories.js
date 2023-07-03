@@ -11,7 +11,7 @@ function Categories () {
                         <Category
                             src='images/accessories.jpg'
                             label='Accessories'
-                            path='/events'
+                            path='/merch/products'
                         />
                         <Category
                             src='images/hoodies.jpg'
