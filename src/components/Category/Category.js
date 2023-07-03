@@ -8,7 +8,7 @@ function Category(props) {
                 <Link className='categories__item__link' to={props.path}>
                     <figure className='categories__item__pic-wrap'>
                         <img src={props.src} alt='Car Image' className='categories__item__img'/>
-                        <span className='label'>{props.label}</span>
+                        <span className='label'>{props.label}+</span>
                     </figure>
                 </Link>
             </li>
